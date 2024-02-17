@@ -1,0 +1,345 @@
+
+:root {
+    --cor-primaria: #F3F5FC;
+    --cor-secundaria:#FFFFFF;
+    --cor-terciaria: #0A3871;
+    --cor-quartenaria: #D8DFE8;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::placeholder {
+    color: var(--cor-terciaria);
+}
+
+body{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    height: 100vh;
+}
+
+.apresentacao{
+    padding: 2%;
+    height: 100%;
+    display: flex;
+    flex-direction: flex-basis;
+}
+
+
+/*sessoes*/
+.apresentacao__ico{
+    flex-basis: 10%;
+    width: 120px;
+    height: 48px;
+    top: 140px;
+    display: flex;
+    left: 40px;
+    gap: 40px;
+
+}
+
+.apresentacao__texto{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.apresentacao__texto__descodificado{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 40px;
+}
+
+/*final sessoes*/
+
+
+
+
+/* div img */
+.apresentacao__img__alura{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+/* final img */
+
+
+
+
+/* div texto cod */
+
+.apresentacao__texto__div__codigo{
+    display: flex;
+}
+
+.apresentacao__texto__div__codigo__txt__codigo{
+    position: absolute;
+    width: 680px;
+    height: 60%;
+    top: 168px;
+    left: 240px;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: var(--cor-terciaria);
+    margin-top : 200 px;
+
+    resize: vertical; /* Permite redimensionar verticalmente */
+    overflow: auto; /* Adiciona barra de rolagem quando o conteúdo ultrapassa a altura máxima */
+    
+    min-height: 100px; /* Altura mínima */
+    max-height: 60%; /* Altura máxima antes de exibir a barra de rolagem */
+    border: none; /* Remove as bordas */
+    outline: none; /* Remove o contorno */
+    background-color: var(--cor-primaria);
+
+}
+
+
+/* final div texto cod */
+
+
+
+
+/* div aviso */
+.apresentacao__texto__div__aviso{
+    position: absolute;
+    width: Hug (252px);
+    height: Hug (18px);
+    top: 80%;
+    left: 240px;
+    gap: 8px;
+    display: flex;
+}
+
+.apresentacao__texto__div__aviso__img{
+    display: flex;
+    color: black;
+}
+
+.apresentacao__texto__div__aviso__texto{
+    display: flex;
+    color: black;
+}
+
+/* final div aviso */
+
+
+
+
+/* div btn */
+.apresentacao__texto__div__btn{
+    position: absolute;
+    width: 680px;
+    height: Hug (67px);
+    top: 85%;
+    left: 240px;
+    gap: 24px;
+    display: flex;
+}
+
+.apresentacao__texto__div__btn__criptografa{
+    Color: var(--cor-primaria);
+    width: 328px;
+    height: Hug (67px);
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    background: var(--cor-terciaria);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.apresentacao__texto__div__btn__decriptografa{
+    width: 328px;
+    height: Hug (67px);
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px;
+    gap: 8px;
+    border: 1px solid var(--cor-terciaria);
+    color: var(--cor-terciaria);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+/* final div aviso */
+
+
+
+/* div descodificador */
+.apresentacao__texto__descodificado{
+    width: 400px;
+    height: 90%;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    color: var(--cor-secundaria);
+    box-shadow: 0px 24px 32px -8px #00000014;
+    background: var(--cor-secundaria);
+    display: flex;
+    
+}
+
+.apresentacao__texto__descodificado__escrito{
+    display: absolute;
+    width: 93%;
+    height: 75vh;
+    top: 72px;
+    left: 1032px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #495057;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+
+    resize: vertical; /* Permite redimensionar verticalmente */
+    overflow: auto; /* Adiciona barra de rolagem quando o conteúdo ultrapassa a altura máxima */
+    
+    border: none; /* Remove as bordas */
+    outline: none; /* Remove o contorno */
+
+    
+
+}
+
+.apresentacao__texto__descodificado__btn__copy{
+    display: flex;
+    width: 328px;
+    height: Hug (67px);
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px;
+    gap: 5px;
+    border: 1px solid var(--cor-terciaria);
+    color: var(--cor-terciaria);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-self: center;
+    gap: 30px;
+
+    margin-bottom: 1%;
+    margin-top: 3%;  
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.apresentacao__texto__descodificado__img{
+    display: flex;
+    width: 336px;
+    height: 304px;
+    top: 283px;
+    left: 1032px;
+    margin-top: 20%; 
+    margin-bottom: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+    
+}
+
+.apresentacao__texto__descodificado__img__texto{
+    width: Hug (336px);
+    height: Hug (122px);
+    top: 619px;
+    left: 1032px;
+    gap: 8px;
+    margin-bottom: 30%;
+}
+
+.apresentacao__texto__descodificado__img__texto__txt1{
+    width: 336px;
+    height: 58px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #343A40;
+    margin-top: auto; 
+    margin-bottom: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+    
+}
+.apresentacao__texto__descodificado__img__texto__txt2{
+    width: 336px;
+    height: 48px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #343A40;
+    margin-top: auto; 
+    margin-bottom: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.apresentacao__texto__descodificado__clear1 *{
+    display: none;
+}
+
+.apresentacao__texto__descodificado__clear2 *{
+    display: flex;
+    flex-direction: column;
+}
+
+/* final div descodificador */
+
+
+
+
+/* rodape */
+.rodape{
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+/* final rodape */
