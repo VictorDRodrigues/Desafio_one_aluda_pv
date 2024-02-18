@@ -82,6 +82,25 @@ function decodificarTexto(texto) {
 }
 
 
+function copiarValorTextarea(idTextarea) {
+  var textarea = document.getElementById(idTextarea);
+  var texto = textarea.value;
+
+
+  if (navigator.clipboard) {
+      // Escrever o texto na área de transferência do sistema
+      navigator.clipboard.writeText(texto)
+          .then(() => {
+              console.log('Texto copiado para a área de transferência com sucesso');
+          })
+          .catch(err => {
+              console.error('Erro ao copiar texto para a área de transferência:', err);
+          });
+  } else {
+      console.error('Seu navegador não suporta a API de Clipboard');
+  }
+}
+
 
 
 let textcod = "";
