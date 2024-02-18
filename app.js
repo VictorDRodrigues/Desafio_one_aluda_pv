@@ -1,9 +1,19 @@
 
-const textarea = document.getElementsByClassName('meuTextarea');
-
-textarea.addEventListener('input', function() {
-  this.style.height = 'auto'; // Define a altura como automática para ajustar o tamanho
-  this.style.height = this.scrollHeight + 'px'; // Define a altura do textarea para a altura do conteúdo
-});
+let textcod = "";
+let textdescof = "";
 
 
+function myFunction() {
+  return alert("Teste de JS");
+}
+
+function mostrarDiv1() {
+  document.getElementById("divclear01").style.display = "block";
+  document.getElementById("divclear02").style.display = "none";
+}
+
+// Função para mostrar apenas a segunda div e esconder a primeira
+function mostrarDiv2() {
+  document.getElementById("divclear01").style.display = "none";
+  document.getElementById("divclear02").style.display = "block";
+}

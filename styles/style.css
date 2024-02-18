@@ -67,6 +67,8 @@ body{
 
 
 
+
+
 /* div img */
 .apresentacao__img__alura{
     position: absolute;
@@ -241,6 +243,8 @@ body{
 
 .apresentacao__texto__descodificado__btn__copy{
     display: flex;
+    justify-content: center; /* Alinha o conteúdo horizontalmente ao centro */
+    align-items: center; /* Alinha o conteúdo verticalmente ao centro */
     width: 328px;
     height: Hug (67px);
     padding: 24px;
@@ -318,18 +322,9 @@ body{
     margin-right: auto; 
 }
 
-.apresentacao__texto__descodificado__clear1 *{
-    display: none;
-}
 
-.apresentacao__texto__descodificado__clear2 *{
-    display: flex;
-    flex-direction: column;
-}
 
 /* final div descodificador */
-
-
 
 
 /* rodape */
@@ -343,3 +338,12 @@ body{
     font-weight: 400;
 }
 /* final rodape */
+
+.apresentacao__texto__descodificado__clear1 *{
+    display:  absolute;
+}
+
+.apresentacao__texto__descodificado__clear2 *{
+    display:  absolute;
+    flex-direction: column;
+}
