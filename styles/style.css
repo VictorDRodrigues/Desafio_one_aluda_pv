@@ -172,7 +172,7 @@ body{
 
 }
 
-.apresentacao__texto__div__btn__decriptografa{
+.apresentacao__texto__div__btn__descriptografa{
     width: 328px;
     height: Hug (67px);
     padding: 24px;
@@ -339,6 +339,8 @@ body{
 }
 /* final rodape */
 
+
+
 .apresentacao__texto__descodificado__clear1 *{
     display:  absolute;
 }
@@ -346,4 +348,23 @@ body{
 .apresentacao__texto__descodificado__clear2 *{
     display:  absolute;
     flex-direction: column;
+}
+
+
+
+/* hover */
+
+.apresentacao__texto__div__btn__criptografa:hover {
+    color: #fff;
+    background-color: var(--cor-hover);
+}
+
+.apresentacao__texto__div__btn__descriptografa:hover {
+    color: #fff;
+    background-color: var(--cor-hover);
+}
+
+.apresentacao__texto__descodificado__btn__copy:hover{
+    color: #fff;
+    background-color: var(--cor-hover);
 }
